@@ -23,3 +23,7 @@ Temas de que los commits no registran metadatos de de .git
 git status: Cambios sin guardar ya sea entre Ctrl+S y add ., commit y push ó cambios en la repo que no tienes(hacer pull).
 
 git branch: muestra la branch en la que estás
+
+El 8vo: 
+
+Flujo de git switch -c xxx ->
