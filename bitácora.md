@@ -33,12 +33,14 @@ Se debe hacer commit antes de cambiar de branch
 
 git switch main: cambia a main...
 
-
 10mo y 11vo:
 
 Hacer commits de manera visual mediante botones.
 
-
 docker exec -ti xxx /bin/sh : entrar a la imagen?
 
 docker rm -f $(docker ps -aq) : eliminar dockers
+
+--
+
+docker build -t aaa : crear una imagen?
