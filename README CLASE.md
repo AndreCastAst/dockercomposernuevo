@@ -45,11 +45,11 @@ Trabajar un docker compose, especificando configuración y comandos para desplie
 
 Redes:
 
-?
+Aunque no usamos redes en este ejemplo, aún así podemos hablar de sus tipos dentro del contexto de la clase:
 
 Volúmenes:
 
-?
+Aunque no usamos volúmenes en este ejemplo, aún así podemos hablar de sus tipos dentro del contexto de la clase:
 
 - Hacer uso de Conventional Commits |
 - Repositorio publico |
