@@ -1,18 +1,17 @@
 Prueba de archivo, probando cambios de contenido en un archivo a ver si se guarda bien y lo veo en https://github.com/AndreCastAst/dockercomposernuevo, entendiendo el flujo de git...
 He usado git add
 
-
 Nota: Los intentos 1 y 2 de commits se hicieron sin contenido en ninguna carpeta.
 
 Nota: traté de usar comandos git sin antes haber inicializado git: git init, git branch -M main, git remote add
 
 **Estas anotaciones son propias de mi proceso de aprendizaje de gitflow, anotaré todo lo que tenga claro. No relacionado con la tarea. Valor de apéndice.**
 
-Aprendido hasta 
+Aprendido hasta
 
 El 5to intento de commit:
 
-flujo de Ctrl+S -> add . -> commit -m "" -> git push 
+flujo de Ctrl+S -> add . -> commit -m "" -> git push
 
 El 6to commit:
 
@@ -28,8 +27,18 @@ El 8vo:
 
 Flujo de git switch -c xxx -> Ctrl+S -> add. -> commit -m "" -> push -u origin xxx
 
-9no: 
+9no:
 
 Se debe hacer commit antes de cambiar de branch
 
 git switch main: cambia a main...
+
+
+10mo y 11vo:
+
+Hacer commits de manera visual mediante botones.
+
+
+docker exec -ti xxx /bin/sh : entrar a la imagen?
+
+docker rm -f $(docker ps -aq) : eliminar dockers
