@@ -1,4 +1,4 @@
-README copiado de **Ejercicio Docker Compose** en Canvas. No se hizo ninguna modificación además de este comentario, los nombres de containers, contraseña de postgres,
+README copiado de **Ejercicio Docker Compose** en Canvas. Se cambiaron los nombres de las apis, el POSTGRES_PASSWORD y se respondió a los tipos de redes y volúmenes.
 
 # Laboratorio 02
 
@@ -40,18 +40,27 @@ Trabajar un docker compose, especificando configuración y comandos para desplie
 - 3 copias de una API build local |
 - Configuración BD |
 - Uso de volúmenes |
-- Uso de variables de entorno
-- En README. Responder los tipos de redes y los tipos de volumen que existen en docker
+- Uso de variables de entorno |
+- En README. Responder los tipos de redes y los tipos de volumen que existen en docker |
 
 Redes:
 
-Aunque no usamos redes en este ejemplo, aún así podemos hablar de sus tipos dentro del contexto de la clase:
+- Bridge: Defaullt, pero sirve para dentro de un mismo equipo.
+- Host: Conecta al contenedor con nuestra máquina, entre IPs y puertos.
+- None: No es que sea una red, es elegir no tener una. Aisla al contenedor del host y de internet.
+- Overlay: Usado para entre varios hosts(nodos). Relacionado a Docker Swarm
+- Macvlan: Hace a un contenedor reconocible por la red local, tal cual como tu pc.
 
 Volúmenes:
 
-Aunque no usamos volúmenes en este ejemplo, aún así podemos hablar de sus tipos dentro del contexto de la clase:
+- Named Volume: Asignación de nombre manual. Se almacenan en el host pero se controla por el docker. Recomendada para producción.
+- Anonymus Volume: Asignación de nombre automática. ID ilegible. Dependientes del contenedor asociado.
+- Bind Mounts: Asocia cualquier archivo del host al contenedor.
+- Tmpfs Mounts: Usa la RAM del host como almacén de datos, es decir, se vuelven datos temporales.
+
+
 
 - Hacer uso de Conventional Commits |
 - Repositorio publico |
-- Uso de .gitignore
-- Opcional: Capturas de su proyecto desplegado
+- Uso de .gitignore |
+- Opcional: Capturas de su proyecto desplegado |
