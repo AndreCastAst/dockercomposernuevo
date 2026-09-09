@@ -1,4 +1,5 @@
-README copiado de **Ejercicio Docker Compose** en Canvas. No se hizo ninguna modificación además de este comentario.
+README copiado de **Ejercicio Docker Compose** en Canvas. No se hizo ninguna modificación además de este comentario, los nombres de containers, contraseña de postgres,
+
 
 
 
@@ -12,13 +13,13 @@ API
 
 - Aplicación JAVA dockerizarla (crear la imagen)
   - docker pull nmatsui/hello-world-api
-- clever_montalcini 3001
-- condescending_davinci 3000
+- intelligent_tharp 3001
+- practical_shannon 3000
 - $ docker run -d --rm -p 3000:3000 nmatsui/hello-world-api
 - 
 
 BD PostgreSQL
-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+docker run --name some-postgres -e POSTGRES_PASSWORD=Contrasena123 -d postgres
 
 COMANDOS
 
