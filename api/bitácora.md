@@ -24,6 +24,12 @@ git status: Cambios sin guardar ya sea entre Ctrl+S y add ., commit y push ó ca
 
 git branch: muestra la branch en la que estás
 
-El 8vo: 
+El 8vo:
 
-Flujo de git switch -c xxx ->
+Flujo de git switch -c xxx -> Ctrl+S -> add. -> commit -m "" -> push -u origin xxx
+
+9no: 
+
+Se debe hacer commit antes de cambiar de branch
+
+git switch main: cambia a main...
