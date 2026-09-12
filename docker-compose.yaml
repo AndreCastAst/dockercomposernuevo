@@ -10,9 +10,16 @@ services:
         container_name: api02
         build: ./api
         environment:
-          - MESSAGE=${NOMBRE}
+            - MESSAGE=${NOMBRE}
         ports:
             - 3001:3000
+    api03:
+        container_name: api03
+        build: ./api
+        environment:
+            - MESSAGE=${NOMBRE}
+        ports:
+            - 3002:3000
     db:
         image: postgres:13
         environment:
